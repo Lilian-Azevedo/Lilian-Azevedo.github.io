@@ -3,52 +3,28 @@
   <head>
     <meta charset="UTF-8">
     <title>Meu portfólio</title>
-    <style>
-      body{
-        background-color:rgb(34, 31, 31);
-        color:honeydew;
-      }
-      h1 {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 50px;
-        text-align: center;
-        color:rgb(44, 243, 243);
-      }
-      .picture {
-        border-radius: 100%;
-      }
-      h2 {
-        font-size: 30px;
-        color: rgba(26, 185, 164, 0.904);
-      }
-      h3{
-        color:rgba(137, 219, 208, 0.904)
-      }
-      .naturalidade{
-        color:springgreen;
-      }
-
-      .reveja {
-        text-decoration: none;
-        color:seagreen;
-      }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
     <h1>Bem vindo ao meu portfólio!</h1>
-    <h2> Lilian Sandy Vasconcelos Azevedo</h2>
-      <p>
-          <img class="picture" id="foto" src="/../../../fotoportf.jpeg" 
+
+    <div>
+      <h2> Lilian Sandy Vasconcelos Azevedo</h2>
+      <div class="container">
+       <p>
+          <img id="foto" src="/../../../fotoportf.jpeg" 
           alt="Foto de Lilian Azevedo no Parque Tanguá" 
           width="300px"><br>
-          <h3><a id="descricao">Breve descrição</a></h3>
-          <em>Estudante de Desenvolvimento de Software na Trybe | Engenheira Química</em>
+          <p class="estudante"><em>Estudante de Desenvolvimento de Software na Trybe | Engenheira Química</em></p>
       </p>
-      <p>
+    </div>
+    </div>
+  
+    <p>
           Uma <strong class="naturalidade">manauara</strong> profundamente apaixonada pelas minhas raízes, mas atualmente morando em Curitiba, 
           conhecendo um pouco mais do sul do país e me <strong class="naturalidade">reinventando</strong>.
-      </p>
+    </p>
      <h3><a id="habilidades">Habilidades que possuo:</a></h3>
      <ul>
           <li>Comunicação</li>

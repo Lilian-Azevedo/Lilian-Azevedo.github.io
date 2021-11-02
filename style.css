@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(34, 31, 31);
+    color:honeydew;
+    padding: 1%;
+  }
+  h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    text-align: center;
+    color:rgb(44, 243, 243);
+  }
+  #foto{
+    float:left;
+    height: 270px;
+    padding: 10px;
+    background-color: turquoise;
+  }
+  .estudante{
+      position:absolute;
+      left:53%;
+      top: 100px; 
+  }
+.container {
+    height: 320px;
+    position: relative;
+  }
+ 
+h2 {
+    font-size: 30px;
+    color: rgba(26, 185, 164, 0.904);
+    text-align: center;
+  }
+
+  h3{
+    color:rgba(137, 219, 208, 0.904)
+  }
+
+  ul li:nth-child(odd){
+      background-color: tomato;
+  }
+  .naturalidade{
+    color:springgreen;
+  }
+
+  .reveja {
+    text-decoration: none;
+    color:seagreen;
+  }
