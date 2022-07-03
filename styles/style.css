@@ -396,5 +396,72 @@ img {
 
 .skills_arrow {
     margin-left: auto;
-    transition: .4s;
+    transition: 0.4s;
+}
+
+.skills_list {
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+}
+
+.skills_titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+
+.skills_name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills_bar,
+.skills_percentage {
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills_bar {
+    background-color: var(--first-color-lighter);
+}
+
+.skills_percentage {
+    display: block;
+    background-color: var(--first-color);
+}
+
+.skills_html {
+    width: 90%;
+}
+
+.skills_css {
+    width: 75%;
+}
+
+.skills_js {
+    width: 90%;
+}
+
+.skills_react {
+    width: 80%;
+}
+
+.skills_node {
+    width: 60%;
+}
+
+.skills_docker {
+    width: 50%;
+}
+
+.skills_mysql {
+    width: 60%;
+}
+
+.skills_kanban {
+    width: 60%;
+}
+
+.skills_scrum {
+    width: 65%;
 }
