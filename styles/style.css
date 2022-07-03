@@ -264,3 +264,16 @@ img {
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-75);
 }
+
+.home_description {
+    margin-bottom: var(--mb-2);
+}
+
+.home_scroll {
+    /* display: none; */
+}
+
+.home_scroll-button {
+    color: var(--first-color);
+    transition: .3s;
+}
