@@ -145,8 +145,8 @@
 
       <!--==================== SKILLS ====================-->
       <section class="skills section" id="skills">
-        <h2 class="section_title">Skills</h2>
-        <span class="section_subtitle">My technical level</span>
+        <h2 class="section_title">Habilidades</h2>
+        <span class="section_subtitle">Nível técnico</span>
         <div class="skills_container container grid">
           <div>
             <!-- Front -->
@@ -155,7 +155,6 @@
                 <i class="uil uil-brackets-curly skills_icon"></i>
                 <div>
                   <h1 class="skills_title">Frontend</h1>
-                  <span class="skills_subtitle">More than 4 months</span>
                 </div>
                 <i class="uil uil-angle-down skills_arrow"></i>
               </div>
@@ -215,7 +214,6 @@
                 <i class="uil uil-server-network skills_icon"></i>
                 <div>
                   <h1 class="skills_title">Backend</h1>
-                  <span class="skills_subtitle">Em desenvolvimento</span>
                 </div>
                 <i class="uil uil-angle-down skills_arrow"></i>
               </div>
@@ -230,6 +228,17 @@
 
                   <div class="skills_bar">
                     <span class="skills_percentage skills_node"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Rest API</h3>
+                    <i class="uil uil-cloud-check skills_icon"></i>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_rest"></span>
                   </div>
                 </div>
 
@@ -267,7 +276,6 @@
                 <i class="uil uil-rocket skills_icon"></i>
                 <div>
                   <h1 class="skills_title">Desenvolvimeto ágil</h1>
-                  <span class="skills_subtitle">More than 4 months</span>
                 </div>
                 <i class="uil uil-angle-down skills_arrow"></i>
               </div>
@@ -319,17 +327,17 @@
         <span class="section_subtitle">Minha jornada só está começando</span>
         <div class="qualification_container container">
           <div class="qualification_tabs">
-            <div class="qualification_button button--flex">
+            <div class="qualification_button button--flex qualification_active" data-target='#education'>
               <i class="uil uil-graduation-cap qualification_icon"></i>
               Educação
             </div>
 
-            <div class="qualification_button button--flex">
+            <div class="qualification_button button--flex" data-target='#job'>
               <i class="uil uil-briefcase-alt qualification_icon"></i>
               Trabalho
             </div>
 
-            <div class="qualification_button button--flex">
+            <div class="qualification_button button--flex" data-target='#languages'>
               <i class="uil uil-english-to-chinese qualification_icon"></i>
               Idiomas
             </div>
@@ -337,10 +345,10 @@
           </div>
 
           <div class="qualification_sections">
-            <div class="qualifications_content">
+            <div class="qualifications_content qualification_active" data-content id="education">
+              <!-- Q1 -->
               <div class="qualification-data">
-                <!-- Q1 -->
-                <div>
+                <div >
                   <h3 class="qualification_title">Fundamentos de Desenvolvimento Web</h3>
                   <span class="qualification_subtitle">Trybe</span>
                   <div class="qualification_calendar">
@@ -348,15 +356,48 @@
                     2021 - 2022
                   </div>
                 </div>
-
                 <div>
                   <span class="qualification_rounder"></span>
                   <span class="qualification_line"></span>
                 </div>
-
-                 <!-- Q2 -->
+              </div>
+                
+              <!-- Q2 -->
+              <div class="qualification-data">
+                <div></div>
+                  <div>
+                    <span class="qualification_rounder"></span>
+                    <span class="qualification_line"></span>
+                  </div>
                  <div>
                   <h3 class="qualification_title">Desenvolvimento Front-End</h3>
+                  <span class="qualification_subtitle">Trybe</span>
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 - 2022
+                  </div>
+                </div>
+              </div>
+
+                <!-- Q3 -->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification_title">Engenharia Química</h3>
+                  <span class="qualification_subtitle">UEA - Universidade do Estado do Amazonas</span>
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2014 - 2018
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <!-- <span class="qualification_line"></span> -->
+                </div>
+
+                <!-- Q3 -->
+                <!-- <div>
+                  <h3 class="qualification_title">Desenvolvimento de Software Full-Stack</h3>
                   <span class="qualification_subtitle">Trybe</span>
                   <div class="qualification_calendar">
                     <i class="uil uil-calendar-alt"></i>
@@ -367,9 +408,120 @@
                 <div>
                   <span class="qualification_rounder"></span>
                   <span class="qualification_line"></span>
+                </div> -->
+
+              </div>
+            </div>
+
+            <div class="qualifications_content" data-content id="job">
+              <!-- J1 -->
+              <div class="qualification-data">
+                <div >
+                  <h3 class="qualification_title">Summer de Instrução</h3>
+                  <span class="qualification_subtitle">Trybe</span>
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 - atualmente
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+                
+              <!-- j2 -->
+              <div class="qualification-data">
+                <div></div>
+                  <div>
+                    <span class="qualification_rounder"></span>
+                    <!-- <span class="qualification_line"></span> -->
+                  </div>
+                 <div>
+                  <h3 class="qualification_title">Estagiária de Engenharia</h3>
+                  <span class="qualification_subtitle">PepsiCo Int.</span>
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2017 - 2019
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+
+            <div class="qualifications_content" data-content id="languages">
+              <!-- L1 -->
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Português</h3>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_portuguese"></span>
+                  </div>
                 </div>
 
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Inglês</h3>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_english"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Francês</h3>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_french"></span>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Coreano</h3>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_korean"></span>
+                  </div>
+                </div>
+                
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Espanhol</h3>
+                  </div>
+
+                  <div class="skills_bar">
+                    <span class="skills_percentage skills_spanish"></span>
+                  </div>
+                </div>
+              </div>
+                
+              <!-- Q2 -->
+              <!-- <div class="qualification-data">
+                <div></div>
+                  <div>
+                    <span class="qualification_rounder"></span>
+                    <span class="qualification_line"></span>
+                  </div>
+                 <div>
+                  <h3 class="qualification_title">Desenvolvimento Front-End</h3>
+                  <span class="qualification_subtitle">Trybe</span>
+                  <div class="qualification_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 - 2022
+                  </div>
+                </div>
+              </div>
+
                 <!-- Q3 -->
+              <!-- <div class="qualification-data">
                 <div>
                   <h3 class="qualification_title">Engenharia Química</h3>
                   <span class="qualification_subtitle">UEA - Universidade do Estado do Amazonas</span>
@@ -397,9 +549,9 @@
                 <div>
                   <span class="qualification_rounder"></span>
                   <span class="qualification_line"></span>
-                </div> -->
+                </div> 
 
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
