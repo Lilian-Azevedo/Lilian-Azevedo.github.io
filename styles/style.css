@@ -459,9 +459,27 @@ img {
 }
 
 .skills_kanban {
-    width: 60%;
+    width: 70%;
 }
 
 .skills_scrum {
     width: 65%;
+}
+
+.skills_design {
+    width: 50%;
+}
+
+.skills_open .skills_list{
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+}
+
+.skills_open .skills_arrow{
+    transform: rotate(-180deg);
+}
+
+.skills_close .skills_list{
+    height: 0;
+    overflow: hidden;
 }
