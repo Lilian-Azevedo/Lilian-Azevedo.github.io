@@ -479,19 +479,19 @@ img {
 }
 
 .skills_english {
-    width: 90%;
+    width: 74%;
 }
 
 .skills_french {
-    width: 70%;
+    width: 50%;
 }
 
 .skills_korean {
-    width: 40%;
+    width: 26%;
 }
 
 .skills_spanish {
-    width: 60%;
+    width: 50%;
 }
 
 .skills_open .skills_list{
@@ -567,6 +567,52 @@ img {
     transform: translate(6px, -10px);
 }
 
+/* Coloca bullet no idioma */
+.qualification_language_point_one {
+    display: inline-block;
+    width: 5px;
+    height: 13px;
+    background-color: var(--first-color-second);
+    transform: translate(-3px, -12px);
+    margin-left: 1%;
+}
+
+.qualification_language_point_two {
+    display: inline-block;
+    width: 5px;
+    height: 13px;
+    background-color: var(--first-color-second);
+    transform: translate(-3px, -12px);
+    margin-left: 22%;
+}
+
+.qualification_language_point_three {
+    display: inline-block;
+    width: 5px;
+    height: 13px;
+    background-color: var(--first-color-second);
+    transform: translate(-3px, -12px);
+    margin-left: 22%;
+}
+
+.qualification_language_point_four {
+    display: inline-block;
+    width: 5px;
+    height: 13px;
+    background-color: var(--first-color-second);
+    transform: translate(-3px, -12px);
+    margin-left: 22%;
+}
+
+.qualification_language_point_five {
+    display: inline-block;
+    width: 5px;
+    height: 13px;
+    background-color: var(--first-color-second);
+    transform: translate(-3px, -12px);
+    margin-left: 24%;
+}
+
 .qualification [data-content]{
     display: none;
 }
@@ -577,4 +623,59 @@ img {
 
 .qualification_button.qualification_active {
     color: var(--first-color);
+}
+
+.portfolio_container {
+    overflow: initial;
+}
+
+.portfolio_content {
+    padding: 0 1.5rem;
+}
+
+.portfolio_img {
+    width: 265px;
+    border-radius: .5rem;
+    justify-self: center;
+}
+
+.portfolio_title {
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.portfolio_description {
+    margin-bottom: var(--mb-0-75);
+}
+
+.portfolio_button:hover .button_icon {
+    margin-left: var(--mb-0-75);
+}
+
+.portfolio_data {
+    text-align: center;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: '';
+}
+
+.swiper-portfolio-icon {
+    font-size: 3rem;
+    color: var(--first-color);
+}
+
+.swiper-pagination-bullets {
+    margin-bottom: -2.5rem;
+}
+
+.swiper-pagination-bullet-active {
+    background-color:var(--first-color);
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet {
+    outline: none;
 }

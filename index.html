@@ -6,13 +6,14 @@
     
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
    
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./styles/swiper-bundle.min.css">
     <link rel="stylesheet" href="styles/style.css">
 
     <title>Lilian's Portfolio</title>
   </head>
   <body>
     <header class="header" id="header">
+      <!--==================== NAV ====================-->
       <nav class="nav container">
         <a href="#" class="nav_logo">Lilian</a>
         <div class="nav_menu hidden-menu" id="nav-menu">
@@ -58,6 +59,7 @@
       </nav>           
     </header>
     <main class="main">
+      <!--==================== HOME ====================-->
       <section class="home section" id="home">
           <div class="home_container container grid">
             <div class="home_content grid">
@@ -89,6 +91,7 @@
                   </g>
                 </svg>
               </div>
+              <img src="./img/lily.svg">
               <div class="home_data">
                 <h1 class="home_title">Olá, Eu sou a Lily!</h1>
                 <h3 class="home_subtitle">Desenvolvedora Front-End | Engenheira Química</h3>
@@ -332,10 +335,10 @@
               Educação
             </div>
 
-            <div class="qualification_button button--flex" data-target='#job'>
+            <!-- <div class="qualification_button button--flex" data-target='#job'>
               <i class="uil uil-briefcase-alt qualification_icon"></i>
               Trabalho
-            </div>
+            </div> -->
 
             <div class="qualification_button button--flex" data-target='#languages'>
               <i class="uil uil-english-to-chinese qualification_icon"></i>
@@ -413,8 +416,8 @@
               </div>
             </div>
 
-            <div class="qualifications_content" data-content id="job">
-              <!-- J1 -->
+            <!-- <div class="qualifications_content" data-content id="job">
+            
               <div class="qualification-data">
                 <div >
                   <h3 class="qualification_title">Summer de Instrução</h3>
@@ -430,12 +433,12 @@
                 </div>
               </div>
                 
-              <!-- j2 -->
+             
               <div class="qualification-data">
                 <div></div>
                   <div>
                     <span class="qualification_rounder"></span>
-                    <!-- <span class="qualification_line"></span> -->
+                    <span class="qualification_line"></span>
                   </div>
                  <div>
                   <h3 class="qualification_title">Estagiária de Engenharia</h3>
@@ -447,7 +450,7 @@
                 </div>
               </div>
     
-            </div>
+            </div> -->
 
             <div class="qualifications_content" data-content id="languages">
               <!-- L1 -->
@@ -459,16 +462,27 @@
 
                   <div class="skills_bar">
                     <span class="skills_percentage skills_portuguese"></span>
+                    <span class="qualification_language_point_one"></span>
+                    <span class="qualification_language_point_two"></span>
+                    <span class="qualification_language_point_three"></span>
+                    <span class="qualification_language_point_four"></span>
+                    <span class="qualification_language_point_five"></span>
                   </div>
                 </div>
 
                 <div class="skills_data">
                   <div class="skills_titles">
                     <h3 class="skills_name">Inglês</h3>
+                    <!-- <span>Pré-Avançado</span> -->
                   </div>
 
                   <div class="skills_bar">
                     <span class="skills_percentage skills_english"></span>
+                    <span class="qualification_language_point_one"></span>
+                    <span class="qualification_language_point_two"></span>
+                    <span class="qualification_language_point_three"></span>
+                    <span class="qualification_language_point_four"></span>
+                    <span class="qualification_language_point_five"></span>
                   </div>
                 </div>
 
@@ -479,6 +493,11 @@
 
                   <div class="skills_bar">
                     <span class="skills_percentage skills_french"></span>
+                    <span class="qualification_language_point_one"></span>
+                    <span class="qualification_language_point_two"></span>
+                    <span class="qualification_language_point_three"></span>
+                    <span class="qualification_language_point_four"></span>
+                    <span class="qualification_language_point_five"></span>
                   </div>
                 </div>
 
@@ -489,6 +508,11 @@
 
                   <div class="skills_bar">
                     <span class="skills_percentage skills_korean"></span>
+                    <span class="qualification_language_point_one"></span>
+                    <span class="qualification_language_point_two"></span>
+                    <span class="qualification_language_point_three"></span>
+                    <span class="qualification_language_point_four"></span>
+                    <span class="qualification_language_point_five"></span>
                   </div>
                 </div>
                 
@@ -499,6 +523,11 @@
 
                   <div class="skills_bar">
                     <span class="skills_percentage skills_spanish"></span>
+                    <span class="qualification_language_point_one"></span>
+                    <span class="qualification_language_point_two"></span>
+                    <span class="qualification_language_point_three"></span>
+                    <span class="qualification_language_point_four"></span>
+                    <span class="qualification_language_point_five"></span>
                   </div>
                 </div>
               </div>
@@ -559,11 +588,121 @@
 
       <!--==================== PORTFOLIO ====================-->
       <section class="portfolio section" id="portfolio">
-          
+        <h2 class="section_title">Portfólio</h2>
+        <span class="section_subtitle">Meus favoritos</span>
+
+        <div class="portfolio_container container swiper">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="./img/avatarfone.png" alt="" class="portfolio_img">
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">SnippSong</h3>
+                <p class="portfolio_description">Projeto de musica</p>
+                <a href="#" class="button button--flex button--small portfolio_button">
+                  Demo
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="./img/moneySave.png" alt="" class="portfolio_img">
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">TrybeWallet</h3>
+                <p class="portfolio_description">Projeto de Cambio</p>
+                <a href="#" class="button button--flex button--small portfolio_button">
+                  Demo
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="./img/chapeuHP.png" alt="" class="portfolio_img">
+
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Timer - Harry Potter</h3>
+                <p class="portfolio_description">Cronometro</p>
+                <a href="#" class="button button--flex button--small portfolio_button">
+                  Demo
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
       </section>
 
       <!--==================== CONTATO ====================-->
       <section class="contact section" id="contact">
+        <h2 class="section_title">Vamos nos conectar!</h2>
+        <span class="section_subtitle">Estou sempre interessada em:</span>
+
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_information">
+              <i class="uil uil-envelope contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Email</h3>
+                <span class="contact_subtitle">lilian.azevedo0905@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_information">
+              <i class="uil uil-phone contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Ligações</h3>
+                <span class="contact_subtitle">(51) 98543-7261</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_information">
+              <i class="uil uil-whatsapp contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">WhatsApp</h3>
+                <span class="contact_subtitle">(92) 98454-1677</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_information">
+              <i class="uil uil-map-marker contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Localização</h3>
+                <span class="contact_subtitle">Curitiba - Paraná</span>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </section>
     </main>
@@ -577,7 +716,7 @@
     
 
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="./JS/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="JS/main.js"></script>
